@@ -1,8 +1,33 @@
-* {
-  margin: 0;
-}
-
 .app {
   text-align: center;
   justify-content: center;
+  /* width: 100%; */
+  /* margin: 10px; */
+}
+
+.message-form {
+  position: fixed;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  bottom: 0;
+  width: auto;
+  right: 20px;
+  left: 20px;
+  margin: 10px;
+  background-color: #eee;
+  z-index: 1;
+}
+
+.app-form-control {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.app-input {
+  flex: 1;
+}
+.app-button {
+  flex: 0;
 }
